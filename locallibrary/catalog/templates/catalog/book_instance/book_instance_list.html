@@ -1,0 +1,8 @@
+{% block content %}
+<h1>Books instances</h1>
+{%if book_instance_list%}
+    {% for book_instance in book_instance_list%}
+        <li><a href="{{book_instance.get_absolute_url}}">{{book_instance.unique_id}}</a></li>
+    {%endfor%}
+{%endif%}
+{% endblock content %}

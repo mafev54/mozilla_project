@@ -1,0 +1,8 @@
+{% block content %}
+<h1>Languajes</h1>
+{%if languaje_list%}
+    {% for languaje in languaje_list%}
+        <li><a href="{{languaje.get_absolute_url}}">{{languaje.name}}</a></li>
+    {%endfor%}
+{%endif%}
+{% endblock content %}

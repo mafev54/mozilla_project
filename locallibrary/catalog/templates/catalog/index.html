@@ -1,0 +1,33 @@
+{%  block content %}
+<h1>Welcome to the library platform</h1>
+<h2>books</h2>
+{% if  books %}
+    {%for book in books %}
+        <p>{{book.title}} </p>
+    {% endfor %}
+{% endif %}
+<h2>authors</h2>
+{% if  authors %}
+    {%for author in authors %}
+        <p>{{author.first_name}} {{authors.last_name}}</p>
+    {% endfor %}
+{% endif %}
+<h2>genres</h2>
+{% if  genres %}
+    {%for genre in genres %}
+        <p>{{genre.name}} </p>
+    {% endfor %}
+{% endif %}
+<h2>languajes</h2>
+{% if  languajes %}
+    {%for languaje in languajes %}
+        <p>{{languaje.name}} </p>
+    {% endfor %}
+{% endif %}
+<h2>book_instances</h2>
+{% if  book_instances %}
+    {%for book_instance in book_instances %}
+        <p>{{book_instance.unique_id}} </p>
+    {% endfor %}
+{% endif %}
+{% endblock content %}
