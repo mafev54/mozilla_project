@@ -3,10 +3,10 @@
 Desarrollo del sitio web de la Biblioteca Comunitaria
 Este repositorio contiene el código fuente y los recursos necesarios para el desarrollo del sitio web de la Biblioteca Comunitaria.
 
-# Objetivo del proyecto
+### Objetivo del proyecto
 El objetivo de este proyecto es crear un sitio web para la Biblioteca Comunitaria que brinde información sobre los servicios, actividades y recursos disponibles para los miembros de la comunidad. El sitio web debe ser fácil de usar, accesible y atractivo visualmente.
 
-# Tecnologías utilizadas
+### Tecnologías utilizadas
 El desarrollo del sitio web se llevará a cabo utilizando las siguientes tecnologías:
 
 HTML5 y CSS3 para la estructura y el diseño del sitio.
